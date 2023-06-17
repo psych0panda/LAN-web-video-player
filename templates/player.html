@@ -24,7 +24,7 @@
             <h2 class="top_title">
                 <span class="glyphicon glyphicon-menu-left" aria-hidden="true">
                 </span>
-                Local Cinema
+                <a href="{{ url_for('dir_expand') }}">Local Cinema</a>
             </h2>
             <div class="container" style="width: 70%; height: 100%; margin: 70px auto">
                 <div class="light" style="margin-right: 10px">
@@ -54,7 +54,7 @@
 const dp = new DPlayer({
     container: document.getElementById('dplayer'),
     autopaly:true,
-    lang:'zh-cn',
+    lang:'en-us',
     preload:'auto',
     screenshot: false,
     video: {
